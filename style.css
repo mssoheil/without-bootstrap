@@ -110,6 +110,52 @@ p {
     color: #a12428;
 }
 
+.on-campus {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 24vw;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 7px 5px #eee;
+    border-radius: 20px;
+    font-size: 26px;
+    color: #01a89e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.box h6, .box p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.box__text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+
+.box h6 {
+    margin-bottom: 5px;
+}
+
+.on-campus__text-section {
+    width: 45vw;
+}
+
+
 
 @media screen and (max-width: 1024px) {
     .hero-section__left-col {
@@ -137,6 +183,47 @@ p {
 @media screen and (max-width: 768px) {
     .hero-section__left-col button {
         width: 100%;
+    }
+
+    .on-campus__text-section {
+        text-align: center;
+    }
+
+    .box, .footer-button, .on-campus__text-section {
+        width: 100%;
+    }
+
+    .box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-button {
+        margin-top: 20px;
+    }
+
+    .f1 {
+        order: 2;
+    }
+
+    .f2 {
+        order: 4;
+    }
+
+    .f3 {
+        order: 1;
+    }
+
+    .f4 {
+        order: 4;
+    }
+
+    .f5 {
+        order: 5;
+    }
+
+    .f6 {
+        order: 6;
     }
 }
 
