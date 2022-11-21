@@ -38,6 +38,79 @@ p {
     border-radius: 20px;
 }
 
+.new-sessions__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.new-sessions {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.new-sessions h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.session-row {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.session-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 33%;
+}
+
+.session-box h5 {
+    margin-bottom: 10px;
+}
+
+.session-box p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.bg-green-light {
+    background: #ccefeb;
+    color: #092d29;
+}
+
+.bg-orange-light {
+    background: #fbe8da;
+    color: #a66232;
+}
+
+.bg-yellow-light {
+    background: #f0f7ce;
+    color: #9fb821;
+}
+
+.bg-pink-light {
+    background: #f8dedf;
+    color: #a12428;
+}
+
+
 @media screen and (max-width: 1024px) {
     .hero-section__left-col {
         text-align: center;
@@ -54,6 +127,10 @@ p {
     .hero-section__left-col .action-button {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .session-box {
+        width: 50%;
     }
 }
 
